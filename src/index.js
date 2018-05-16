@@ -8,7 +8,7 @@ const Index = () => {
     return (
         <div>
             <h1>VIDEO</h1>
-            <video src="https://s3-us-west-2.amazonaws.com/dt-becker-portfolio/Baker-trails.mp4" autoplay loop></video>
+            <video src="https://s3-us-west-2.amazonaws.com/dt-becker-portfolio/Baker-trails.mp4" autoPlay loop></video>
         </div>
     )
 };

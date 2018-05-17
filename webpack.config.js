@@ -9,6 +9,14 @@ module.exports = {
     module: {
       rules: [
         {
+          test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
+          loader: require.resolve('url-loader'),
+          options: {
+            limit: 10000,
+            name: 'static/media/[name].[hash:8].[ext]',
+          },
+        },
+        {
           test: /\.js$/,
           exclude: /node_modules/,
           use: {
@@ -17,7 +25,7 @@ module.exports = {
         },
         {
             test: /\.scss$/,
-            use: ['style-loader', 'sass-loader']
+            use: ['style-loader', 'css-loader', 'sass-loader']
         },
         {
             test: /\.css$/,

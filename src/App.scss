@@ -1,0 +1,49 @@
+.video {
+    .skip-btn {
+       position: absolute;
+       top: 75%;
+       right: 10%;
+       background: transparent;
+       color: #fff;
+       padding: 1%;
+       border-radius: 2px;
+       &:hover {
+           background: #fff;
+           color: #000;
+           transition: 0.5s;
+       }
+
+    }
+}
+
+.thumbnail {
+    // background-color: #999;
+    height: 100vh;
+    background: url(../public/BakerStars.jpg) no-repeat center center fixed;
+    .controls {
+        width: 20%;
+        margin: 0 auto;
+        button {
+            background: transparent;
+            border: 1px solid #fff;
+            color: #fff;
+            // padding: 1%;
+            margin: 1%;
+        }
+
+    }
+
+    .App-intro {
+        color: #fff;
+        border: 1px solid #fff;
+        width: 60%;
+        padding: 5%;
+        margin: 0 auto;
+        background:rgba(255,255,255, 0.2);
+
+   
+
+    }
+
+
+}

@@ -52,13 +52,6 @@ class App extends Component {
 					id="player" 																	src="https://s3-us-west-2.amazonaws.com/dt-becker-portfolio/Breezin+(Remastered).mp3">
 				</audio>
 				
-				{/* {
-					this.state.data.map( (data, index) => (
-						<audio id="player" src={data["audio"]} key={index}>
-						</audio>
-					))
-				} */}
-
         <div className="App-intro">
 					<div className="controls"> 
 						<button onClick={this.onPlay}>

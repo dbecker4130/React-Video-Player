@@ -37,7 +37,6 @@ html, body {
 }
 
 .thumbnail {
-    // background-color: #999;
     width: 100%;
     height: 100vh;
     background-image: url(https://s3-us-west-2.amazonaws.com/dt-becker-portfolio/sunset-close.jpg);
@@ -48,11 +47,10 @@ html, body {
     width: 100vw;
     .name-container {
         text-align: center;
-        // display: flex;
-        // align-content: center;
+        padding: 2% 0 5% 0;
         h3 {
           font-size: 3em;
-          font-weight: 300;
+          font-weight: 400;
           color: #fff;
           display: inline-block;
           padding: 0 2%;
@@ -60,7 +58,6 @@ html, body {
         }
         .logo {
           width: 15vw;
-        //   height: 20vw;
           margin-bottom: -1.5vw;
           padding: -1%;
           margin-right: -3%;
@@ -82,6 +79,7 @@ html, body {
         box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
         .controls {
             text-align: center;
+            padding: 1% 0%;
             button {
                 border: none;
                 background: transparent;
@@ -95,6 +93,10 @@ html, body {
                     }
                 }
             }
+        }
+        p {
+            padding: 5% 0% 0% 0%;
+
         }
     }
 }

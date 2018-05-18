@@ -1,3 +1,18 @@
-{
-    
-}
+[
+    {
+        "text": "Eiusmod non deserunt nostrud culpa. Sunt labore minim id tempor Lorem ut nostrud exercitation voluptate est magna excepteur. Aliqua qui aute nostrud aute pariatur officia nostrud. Esse irure nostrud cillum dolore laborum nulla elit. Nulla mollit non tempor deserunt aute aliquip enim id eiusmod esse.Eiusmod non deserunt nostrud culpa. Sunt labore minim id tempor Lorem ut nostrud exercitation voluptate est magna excepteur. Aliqua qui aute nostrud aute pariatur officia nostrud. Esse irure nostrud cillum dolore laborum nulla elit. Nulla mollit non tempor deserunt aute aliquip enim id eiusmod esse.Eiusmod non deserunt nostrud culpa. Sunt labore minim id tempor Lorem ut nostrud exercitation voluptate est magna excepteur. Aliqua qui aute nostrud aute pariatur officia nostrud. Esse irure nostrud cillum dolore laborum nulla elit. Nulla mollit non tempor deserunt aute aliquip enim id eiusmod esse."
+    },
+
+    {
+        "video": "https://s3-us-west-2.amazonaws.com/dt-becker-portfolio/Short+Clip+1.mp4"
+    },
+    {
+        "audio": "https://s3-us-west-2.amazonaws.com/dt-becker-portfolio/Breezin+(Remastered).mp3"
+    },
+    {
+        "background": "https://s3-us-west-2.amazonaws.com/dt-becker-portfolio/sunset-close.jpg"
+    },
+    {
+        "logo": "https://s3-us-west-2.amazonaws.com/dt-becker-portfolio/dtb-logo.png"
+    }
+]

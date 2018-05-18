@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import './Reset.scss';
 import './App.scss';
 
@@ -29,10 +28,9 @@ class App extends Component {
 			<div className="video-container">
 				{
 					this.state.data.map( (data, index) => (
-						<video loop src={data["video"]} controls autoPlay key={index}/>
+						<video loop src={data["video"]} autoPlay key={index}/>
 					))
 				}
-
 				<button
 					className="skip-btn"
 					onClick={this.onNext}>
@@ -85,7 +83,5 @@ class App extends Component {
 		console.log('pause FIRED');
 	}
 }
-
-App.PropTypes
 
 export default App;

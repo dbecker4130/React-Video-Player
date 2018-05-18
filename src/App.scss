@@ -9,8 +9,6 @@ html, body {
     width: 100vw;
     video {
       position: absolute;
-      padding: 0%;
-      margin: 0%;
       width: 100%;
       height: 100vh;
       object-fit: cover;
@@ -63,10 +61,6 @@ html, body {
           margin-right: -3%;
           margin-left: -2%;
 
-        }
-        .profile-statement {
-          font-size: 1em;
-          color: #fff;
         }
       }
       
